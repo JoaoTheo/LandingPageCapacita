@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html {
@@ -90,4 +91,17 @@ table th {
 tfoot td,
 thead th {
   background: var(--light-gray-color);
+}
+
+footer {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+footer p {
+  font-size: 1.5rem;
+}
+
+footer a {
+  font-style: italic;
 }
